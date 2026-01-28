@@ -1,0 +1,74 @@
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0f172a;
+    color: #e5e7eb;
+}
+
+
+header {
+    padding: 20px;
+    background-color: #020617;
+    text-align: center;
+}
+
+nav a {
+    color: #93c5fd;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.hero {
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.card img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 6px;
+}
+
+.featured-text {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #c7d2fe;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+
+.thumb img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.about-text {
+    padding: 20px;
+}
+
+footer {
+    background-color: #020617;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer a {
+    color: #86efac;
+    text-decoration: none;
+}
+
+.tagline {
+    color: #6ee7b7;
+}
